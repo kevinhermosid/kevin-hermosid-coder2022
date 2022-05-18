@@ -1,56 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilo.css" />
   </head>
   <body>
-    <header class="header">
-      <img src="./imagenes/LOGO.webp" alt="logo" class="logo" />
-      <img class="menu-mobile" src="./imagenes/menu-mobile.png" alt="">
-      <nav>
-        
-        <ul class="nav">
-          <li><a href="index.html" class="link_menu">Inicio</a></li>
-          <li><a href="perro.html" class="link_menu">Perro</a></li>
-          <li><a href="#" class="link_menu">Gato</a></li>
-          <li><a href="#" class="link_menu">Ofertas</a></li>
-          <li><a href="#" class="link_menu">Contactos</a></li>
-          <li>
-            <a href="sobreNostros.html" class="link_menu">Quienes Somos</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+      <img src="./imagenes/LOGO.webp" alt="" width="200" height="auto">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="perro.html">Perro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gato.html">Gato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ofertas.html">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobreNostros.html">Sobre nosotros</a>
 
-    <main class="main-flex">
-      <section class="contenedor-izquierda">
-        <h1 class="titulo_h1">Patita Pet</h1>
-        <h2 class="subtitulo">Tu veterinaria de Confianza</h2>
-        <div class="div_btn"> 
-            <a href="">Ver ofertas</a>
-            <a href="">Ver tienda</a>
+          </ul>
         </div>
-      </section>
-      <section class="contenedor-derecha">
-        <img src="./imagenes/imgPrincipal.webp" alt="Perro" />
-      </section>
-    </main>
-    
-
+      </div>
+    </nav>
     <section class="shop">
       <div class="shop_aside">
-        <h2  class="shop_aside_h2">Filtrar:</h2>
+        <h2 class="shop_aside_h2">Filtrar:</h2>
         <h3 class="subtitulo">Mascota:</h3>
         <a class="shop_aside_link" href="">Perro X</a>
         <a class="shop_aside_link" href="">Gato</a>
         <h3 class="subtitulo">Edad:</h3>
         <a class="shop_aside_link" href="">Cachorro</a>
         <a class="shop_aside_link" href="">Adulto X</a>
-        <a class="shop_aside_link"  href="">Senior</a>
+        <a class="shop_aside_link" href="">Senior</a>
         <h3 class="subtitulo">Bolsa:</h3>
         <a class="shop_aside_link" href="">1kg</a>
         <a class="shop_aside_link" href="">3kg</a>
@@ -60,91 +55,177 @@
       </div>
       <div class="shop_items">
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop.jpg" alt="" class="oferta_card_img"> 
-          <h2 class="oferta_card_h2 shop_items_h2 ">Nt Adulto 15kg</h2>
+          <img
+            src="./imagenes/alimentoshop.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
+          <h2 class="oferta_card_h2 shop_items_h2">Nt Adulto 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop1.jpg" alt="" class="oferta_card_img"> 
-          <h2 class="oferta_card_h2 shop_items_h2 ">Nt Skin 15kg</h2>
+          <img
+            src="./imagenes/alimentoshop1.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
+          <h2 class="oferta_card_h2 shop_items_h2">Nt Skin 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop2.jpg" alt="" class="oferta_card_img"> 
-          <h2 class="oferta_card_h2 shop_items_h2 ">Exc Adulto 15kg</h2>
+          <img
+            src="./imagenes/alimentoshop2.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
+          <h2 class="oferta_card_h2 shop_items_h2">Exc Adulto 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop3.jpg" alt="" class="oferta_card_img"> 
-          <h2 class="oferta_card_h2 shop_items_h2 ">Vc Mb 15kg</h2>
+          <img
+            src="./imagenes/alimentoshop3.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
+          <h2 class="oferta_card_h2 shop_items_h2">Vc Mb 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop4.jpg" alt="" class="oferta_card_img"> 
-          <h2 class="oferta_card_h2 shop_items_h2 ">Vc Lb 15kg</h2>
+          <img
+            src="./imagenes/alimentoshop4.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
+          <h2 class="oferta_card_h2 shop_items_h2">Vc Lb 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop9.jpg" alt="" class="oferta_card_img"> 
-          <h2 class="oferta_card_h2 shop_items_h2 ">Nt light 15kg</h2>
+          <img
+            src="./imagenes/alimentoshop9.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
+          <h2 class="oferta_card_h2 shop_items_h2">Nt light 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop6.jpg" alt="" class="oferta_card_img"> 
-          <h2 class="oferta_card_h2 shop_items_h2 ">Vc Skin 15kg</h2>
+          <img
+            src="./imagenes/alimentoshop6.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
+          <h2 class="oferta_card_h2 shop_items_h2">Vc Skin 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop7.jpg" alt="" class="oferta_card_img"> 
-          <h2 class="oferta_card_h2 shop_items_h2 ">Nt Puppy 15kg</h2>
+          <img
+            src="./imagenes/alimentoshop7.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
+          <h2 class="oferta_card_h2 shop_items_h2">Nt Puppy 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
         <div class="oferta_card">
-          <img src="./imagenes/alimentoshop8.jpg" alt="" class="oferta_card_img"> 
+          <img
+            src="./imagenes/alimentoshop8.jpg"
+            alt=""
+            class="oferta_card_img"
+          />
           <h2 class="oferta_card_h2 shop_items_h2">Nt Adulto 15kg</h2>
           <!-- <p class="oferta_card_p">800p</p> -->
           <a href="#" class="oferta_card_link shop_items_link">comprar</a>
         </div>
       </div>
     </section>
-    <footer class="f_flex">
-      <h2 class="subtitulo">Contactanos</h2>
-      <form action="" method="post" class="form_flex">
-        <label for="Name" id="name" class="label_css">Nombre</label>
-        <input type="text" placeholder="Nombre" id="name" name="Name" />
+      <form action="" method="post"></form>
+      <div class="container mw-100 form">
+        <div class="row col-12">
+          <div class="col-12">
+            <h2 class="text-center p-5 text-white fw-bold">Contactanos</h2>
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="name" id="nombre" class="form-label text-white"
+              >Nombre:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="name" name="name"
+              placeholder="Nombre y apellido"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="telefono" id="telefono" class="form-label text-white"
+              >Telefono:</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="telefono"
+              name="telefono"
+              placeholder="11-xxxx-xxxx"
+            />
+          </div>
 
-        <label for="Telefono" id="telefono"  class="label_css">Telefono</label>
-        <input
-          type="number"
-          placeholder="Telefono"
-          id="telfono"
-          name="Telefono"/>
-
-        <label for="Correo" id="correo" class="label_css">Correo</label>
-        <input type="email" placeholder="Correo" id="correo" name="Correo" />
-
-        <label for="msj" id="mensaje" class="label_css">Mensaje</label>
-        <textarea
-          name="Mensaje"
-          id="msj"
-          id="Mensaje"
-          placeholder="Mensaje"
-        ></textarea>
-        <div><!-- cancela que el checbox se va hacia abajo por el flex -->
-        <label for="acepto" class="label_css">Terminos y condiciones</label>
-        <input type="checkbox" name="acepto" id="acepto" />
+          <div class="col-12 col-md-6">
+            <label for="email" id="email" class="form-label text-white"
+              >Email:</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Nombre@Ejemplo.com"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label
+              for="texto"
+              id="texto"
+              class="form-label text-white"
+              >Mensaje:</label
+            >
+            <textarea
+              class="form-control"
+              id="texto"
+              name="texto"
+              rows="1"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+          </div>
+          <div
+            class="d-flex justify-content-center form-check col-12 text-white text-center p-3"
+          >
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="acepto"
+              name="acepto"
+            />
+            <label class="form-check-label" for="acepto" name="acepto">
+              Acepto Terminos y condiciones</label
+            >
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary">Enviar</button>
+          </div>
         </div>
-        <label for="" id="Enviar"></label>
-        <input class="imput_css" type="submit" value="Enviar" id="Enviar" />
-      </form>
+      </div>
+    </form>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
   </body>
 </html>
+

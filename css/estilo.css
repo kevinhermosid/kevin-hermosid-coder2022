@@ -4,25 +4,14 @@
     font-family: 'Be Vietnam Pro', sans-serif;
    }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem;
-    margin-top:1rem;
-    align-items: center;}
-
-    .logo {width: 220px;
-    height: 86px;}
-
-    .nav{display: flex;
-    list-style: none;}
-
-    .link_menu{padding: 1rem;
-    text-decoration: none;
-   /*   color: #242e52;} azul mas fuerte */
-   color: #4682B4}
-   .link_menu:hover{background-color: #18327a; transform: scale(110%);
-   color: white;}
+   /* .navbar{justify-content:space-between;
+    justify-items: flex-end ;
+    align-items: flex-end;
+    } */
+    .nav-link{color: #4682B4}
+    .nav-link:hover{background-color: #18327a; transform: scale(110%);
+    color: white;}
+    .nav-link:focus{background-color: white;}
 
 .main-flex {display: flex;
     justify-content: space-between;
@@ -137,6 +126,15 @@ color: white;}
    .oferta_card .shop_items_link{background-color: #4682B4;
     color: white;}
 
+    .h2-sobrenosotros{font-size: 3rem;
+    font-weight: bold;
+    color: #4682B4;}
+    .p-sobrenosotros{font-size: 1.5rem;
+    font-style: italic;
+    color: #4682B4;}
+   .p-sobrenosotros-parrafo{font-size: 1rem;
+    font-style: italic;
+    color: #4682B4;}
 
     
 
@@ -167,7 +165,7 @@ color: white;}
     .menu-mobile{width: 50px;
     height: 50px;}
 
-    .container{background-color: #4682B4;}
+    .form{background-color: #4682B4;}
 
     
 @media (max-width: 768px) 
