@@ -4,14 +4,11 @@
     font-family: 'Be Vietnam Pro', sans-serif;
    }
 
-   /* .navbar{justify-content:space-between;
-    justify-items: flex-end ;
-    align-items: flex-end;
-    } */
-    .nav-link{color: #4682B4}
+  
+  #navbarNav .nav-link{color: #4682B4}
     .nav-link:hover{background-color: #18327a; transform: scale(110%);
     color: white;}
-    .nav-link:focus{background-color: white;}
+    
 
 .main-flex {display: flex;
     justify-content: space-between;
