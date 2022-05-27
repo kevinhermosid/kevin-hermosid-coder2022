@@ -1,28 +1,37 @@
 .shop{display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 70%;
     grid-gap: 1rem;
-    margin: 1rem;}
+    margin: 1rem;
 
     .shop_aside{display: flex;
     flex-direction: column;
     margin-left: 1.5rem;
-    margin-top: 1.5rem;}
-        .shop_aside_h2{font-size: 3rem;
+    margin-top: 1.5rem;
+        &_h2{font-size: 3rem;
         font-weight: bold;
         color: #4682B4;
         margin-bottom: 1rem;}
-        .shop_aside_link{display: inline-block;
+        &_link{display: inline-block;
         text-decoration: none;
         margin:  1rem 0;
-        color: #4682B4;
-        }
+        color: #4682B4;}
+        &_link:hover{color: #18327a;}}
+        & .subtitulo{color: #4682B4;}
 
     .shop_items{display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 1rem;
     margin: 1rem;
-    align-items: center;}
-   .oferta_card .shop_items_h2 {color: #4682B4;}
-   .oferta_card .shop_items_link{background-color: #4682B4;
-    color: white;}
+    align-items: center;
+    .oferta_card{display: flex;
+        flex-direction: column;
+        min-width: 250px;
+        align-items: center;
+         .shop_items_h2 {color: #4682B4;}
+         .shop_items_link{background-color: #4682B4;
+                         color: white;
+                         padding: 1rem;
+                         border-radius: 50px;
+
+                         &:hover{background-color: #18327a; transform: scale(110%);}}}}}
