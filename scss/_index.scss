@@ -74,7 +74,9 @@
                 color: #4682B4;
                 background-color: white;
                 padding: 1rem;
-                border-radius: 50px; }
+                border-radius: 50px; 
+                    &:hover{color: white;
+                        background-color: #18327a; transform: scale(110%);}}
                 & img {width: auto;
                 /* height: 250px; */
                 border-radius: 25px;}}}}

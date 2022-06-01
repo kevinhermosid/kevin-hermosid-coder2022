@@ -123,6 +123,11 @@
   padding: 1rem;
   border-radius: 50px;
 }
+.section_oferta_centrado .section_oferta .oferta_card a:hover {
+  color: white;
+  background-color: #18327a;
+  transform: scale(110%);
+}
 .section_oferta_centrado .section_oferta .oferta_card img {
   width: auto;
   /* height: 250px; */
@@ -172,6 +177,9 @@
   flex-direction: column;
   min-width: 250px;
   align-items: center;
+  border: 1px solid #4682B4;
+  border-radius: 10px;
+  padding: 0.5rem;
 }
 .shop .shop_items .oferta_card .shop_items_h2 {
   color: #4682B4;
