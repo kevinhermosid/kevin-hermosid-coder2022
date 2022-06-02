@@ -9,14 +9,14 @@
     margin-top: 1.5rem;
         &_h2{font-size: 3rem;
         font-weight: bold;
-        color: #4682B4;
+        color: map-get($estilosBase, colorPri);
         margin-bottom: 1rem;}
         &_link{display: inline-block;
         text-decoration: none;
         margin:  1rem 0;
-        color: #4682B4;}
-        &_link:hover{color: #18327a;}}
-        & .subtitulo{color: #4682B4;}
+        color: map-get($estilosBase, colorPri);}
+        &_link:hover{color: map-get($estilosBase, colorSec);}}
+        & .subtitulo{color: map-get($estilosBase, colorPri);}
 
     .shop_items{display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -28,14 +28,14 @@
         flex-direction: column;
         min-width: 250px;
         align-items: center;
-        border: 1px solid #4682B4;
+        border: 1px solid map-get($estilosBase, colorPri);
         border-radius: 10px;
         padding: 0.5rem;
 
-         .shop_items_h2 {color: #4682B4;}
-         .shop_items_link{background-color: #4682B4;
-                         color: white;
+         .shop_items_h2 {color: map-get($estilosBase, colorPri);}
+         .shop_items_link{background-color: map-get($estilosBase, colorPri);
+                         color: map-get($estilosBase, colorTer);
                          padding: 1rem;
                          border-radius: 50px;
 
-                         &:hover{background-color: #18327a; transform: scale(110%);}}}}}
+                         &:hover{background-color: map-get($estilosBase, colorSec); transform: map-get($estilosBase, animacion);}}}}}

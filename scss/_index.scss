@@ -8,18 +8,18 @@
          align-items: center;
             .titulo_h1{font-size: 5rem;
              font-weight: bold;
-            color: #4682B4;}
+            color: map-get($estilosBase, colorPri);}
             .subtitulo{font-size: 1.5rem;
              font-style: italic;
-            color: #4682B4;}
+            color: map-get($estilosBase, colorPri);}
             .div_btn a{display: inline-block;
             text-decoration: none;
             margin: 2rem;
-            color: white;
-            background-color: #4682B4;
+            color: map-get($estilosBase, colorTer);
+            background-color: map-get($estilosBase, colorPri);
             padding: 1rem;
             border-radius: 50px;
-            &:hover{background-color: #18327a; transform: scale(110%);}}}
+            &:hover{background-color: map-get($estilosBase, colorSec); transform: scale(110%);}}}
         
             .contenedor-derecha {display: flex;
             flex-direction: column;
@@ -33,18 +33,18 @@
     .section_oferta_centrado{display: flex;
     justify-content: center;
     margin-top: 4rem;
-    background-color: #4682B4;
+    background-color: map-get($estilosBase, colorPri);
     align-items: center;
         .section_btn{display: inline-block;
         text-decoration: none;
         margin: 1rem;
-        color: #4682B4;
-        background-color: white;
+        color: map-get($estilosBase, colorPri);
+        background-color: map-get($estilosBase, colorTer);
         padding: 1rem;
         border-radius: 50px;
         height: 50px;
-            &:hover{background-color: #18327a; transform: scale(110%);
-            color: white;}}
+            &:hover{background-color: map-get($estilosBase, colorSec); transform: scale(110%);
+            color: map-get($estilosBase, colorTer);}}
         .section_oferta{display: flex;
         justify-content: space-evenly;
         margin: 1rem;
@@ -61,22 +61,22 @@
             border-radius: 10px;
                 &_h2{font-size: 1.5rem;
                 font-weight: bold;
-                color: white;}
+                color: map-get($estilosBase, colorTer);}
                 &_p{font-size: 1rem;
                 font-style: italic;
-                color: #4682B4;
+                color: map-get($estilosBase, colorPri);
                 position: absolute;
                 top: 0;
                 right: 25px;}
                 & a{display: inline-block;
                 text-decoration: none;
                 margin: 0.5rem;
-                color: #4682B4;
-                background-color: white;
+                color: map-get($estilosBase, colorPri);
+                background-color: map-get($estilosBase, colorTer);
                 padding: 1rem;
                 border-radius: 50px; 
-                    &:hover{color: white;
-                        background-color: #18327a; transform: scale(110%);}}
+                    &:hover{color: map-get($estilosBase, colorTer);
+                        background-color: map-get($estilosBase, colorSec); transform: map-get($estilosBase, animacion);}}
                 & img {width: auto;
                 /* height: 250px; */
                 border-radius: 25px;}}}}
