@@ -1,4 +1,6 @@
-    
+@media (max-width: 1200px){
+    .section_oferta_centrado .section_btn{display: none;}
+}   
 @media (max-width: 844px){
     .main-flex .contenedor-derecha{display: none;}
     .main-flex .contenedor-izquierda{width: 100%;}
@@ -22,6 +24,6 @@
 .main-flex .contenedor-izquierda .subtitulo{font-size:1rem}
 .shop .shop_items {grid-template-columns: 1fr;
     justify-items: center;}
-   
+
 
 }
