@@ -129,7 +129,8 @@
   transform: scale(110%);
 }
 .section_oferta_centrado .section_oferta .oferta_card img {
-  width: auto;
+  width: 217px;
+  height: 217px;
   /* height: 250px; */
   border-radius: 25px;
 }

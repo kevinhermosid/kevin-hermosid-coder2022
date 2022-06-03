@@ -2,13 +2,13 @@
 
     .h2-sobrenosotros{font-size: 3rem;
         font-weight: bold;
-        color: #4682B4;}
+        color: map-get($estilosBase, colorPri);}
         .p-sobrenosotros{font-size: 1.5rem;
         font-style: italic;
-        color: #4682B4;}
+        color: map-get($estilosBase, colorPri);}
        .p-sobrenosotros-parrafo{font-size: 1rem;
         font-style: italic;
-        color: #4682B4;}
+        color: map-get($estilosBase, colorPri);}
     
         .contacto-imagen  {width: 400px;
         height: 300px;}
